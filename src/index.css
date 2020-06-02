@@ -1,13 +1,111 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, white, orange);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header header {
+  font-size: 3.3rem;
+  margin-top: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  text-shadow: 10px, 10px, black;
+  color: black;
+  opacity: 80%;
+}
+
+.input-form {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  justify-content: space-evenly;
+}
+
+.input-form input {
+  font-size: 1.3rem;
+  border-radius: 25px;
+  outline: none;
+  transition: box-shadow 650ms;
+}
+
+.input-form input:focus {
+  box-shadow: 1px 1px 3px 3px orange;
+}
+
+.input {
+  padding: 10px 15px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.input-form button {
+  cursor: pointer;
+  outline: none;
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: background-color 650ms;
+}
+
+.input-form button:hover {
+  color: wheat;
+  background-color: rgb(200, 165, 0);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  border: 2px solid black;
+  background-color: whitesmoke;
+  margin: auto;
+  box-sizing: border-box;
+}
+.container h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.container img {
+  width: 100px;
+  height: 100px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.location {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+.location h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}
+.location h3{
+  font-size: 1.3rem;
+}
+
+.data {
+text-align: center;
+}
+
+.data h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
 }
