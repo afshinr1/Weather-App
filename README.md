@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Deployed : https://afshinr1.github.io/Weather-App/
 ## Available Scripts
 
 In the project directory, you can run:
